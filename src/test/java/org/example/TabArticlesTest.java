@@ -18,7 +18,7 @@ public class TabArticlesTest extends TestCase {
         tabArticles.addArticle("Pierna", 39.99);
         tabArticles.addArticle("Piernota", 49.99);
         tabArticles.deleteArticle("1");
-        assertEquals(2, tabArticles.getArticles().size());
+        assertEquals(1, tabArticles.getArticles().size());
         tabArticles.deleteArticle("2");
         assertTrue(tabArticles.getArticles().isEmpty());
     }
