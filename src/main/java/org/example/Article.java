@@ -8,7 +8,7 @@ public class Article {
     public Article(String name, String id, double price) {
         this.name = name;
         this.id = id;
-        this.price = price;
+        
     }
 
     public String getName() {
